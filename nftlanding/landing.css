@@ -1,0 +1,605 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   }
+   .d-flex{
+    display: flex;
+   } 
+   .j-contant-w{
+       justify-content: space-between;
+   }
+
+       /* section 1 */
+
+    body{
+        max-width: 1356px;
+        margin: auto;
+        background: rgb(17, 17, 17);
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+        justify-content: space-between;
+
+    }
+
+/*  css for navigation bar */
+
+.j-contant-w {
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+
+.navigation .logo{
+    padding:1%;
+    font-family: 'Varela Round';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+color: rgb(255, 255, 255);
+
+}
+.navigation{
+padding-top: 2%;
+}
+.logo h2{
+    margin-left: 4%;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu{
+        margin-top: 2%;
+}
+
+ul li a{
+    margin: 30px;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    font-size: 20px;
+}
+.sign button{
+    margin-right: 50px;
+    color: rgb(255, 57, 152);
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0);
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    border: none;
+    padding-top: 2%;
+}
+
+/* css end for navigationbar */
+
+
+.launching{
+    margin: 3%;
+}
+.noother p.launch{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Pink */
+    color: rgb(255, 57, 152);
+}
+.j-contant-w {
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.noother h1{
+    font-family: 'Inter';
+    font-style: normal;
+    width: 620px;
+    font-weight: 900;
+    font-size: 96px;
+
+    /* Light 1 */
+    color: rgb(255, 255, 255);
+}
+.noother.miss{
+    width: 537px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    /* or 30px */
+
+    /* Light 3 */
+    color: rgb(204, 204, 204);
+}
+.miss span{
+    display: block;
+}
+.signup button{
+    border: 1px solid hsl(22, 100%, 61%);
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 0.6% 1.5%;
+    margin-top:3%;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    }
+
+    .image img {
+        max-width: 100%;
+      }
+
+      .noother {
+        margin-top: 5%;
+      }
+
+      /* end of section 1 */
+
+    /* section 2 */
+
+      .nftbackground{
+          background-image: url(./images/background.png);
+          margin:0% auto;
+          width: 95%;
+          background-repeat: no-repeat;
+
+      }
+    .nftbackground .birds{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 40px;
+        /* Dark 1 */
+        color: rgb(17, 17, 17);
+        padding-top: 5%;
+    }
+    .nftbackground1{
+        padding: 5%;
+    }
+    .freenft{
+        position: relative;
+        color: rgb(17, 17, 17);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    .graph2 {
+    
+        position: absolute;
+        justify-content: right;
+        top: -4%;
+        right: 16%;
+    
+    }
+
+    /* css for icons */
+    .icons {
+        width: 96%;
+        margin: 3% 0% 9% 3%;
+          }
+
+    
+          /* section3 */
+.super{
+    width: 94%;
+    margin: 0% auto;
+}
+.super h3{
+    font-family: 'Inter';
+    width: 620px;
+    font-style: 'normal';
+    font-weight: 500;
+    font-size: 40px;    
+    /* Light 1 */
+    
+    color: rgb(255, 255, 255);
+}
+.super p{
+    width: 782px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(153, 153, 153);
+    margin-top: 2%;
+}
+.super p span{
+    text-decoration: underline;
+}
+
+/* css for card */
+.series{
+    padding: 6% 2%;
+}
+.card{
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.gloop.d-flex {
+    padding: 8% 10%;
+  }
+  .bid {
+    padding-left: 8%;
+  }
+
+.gloopseries h4{
+    width: 86px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(255, 129, 57);
+    text-transform: uppercase;
+}
+.gloopseries .man{
+    width: 110px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 501;
+    font-size: 20px;
+    padding: 10% 0%;
+
+    color: rgb(255, 255, 255);
+}
+.gloopseries .hash{
+    width: 65px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: rgb(119, 119, 119);
+}
+.bid h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0% 0% 5% 46%;
+    text-transform: uppercase;
+
+
+    color: rgb(119, 119, 119);
+}
+.eth p{
+    width: 110px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 501;
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+}
+.eth img{
+    margin-right: 8%;
+}
+.bid .day{
+    width: 80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 6% 0% 0% 29%;
+
+    color: rgb(119, 119, 119);
+}
+
+
+/* section 4 */
+.initial{
+    padding: 6% 0% 6% 0%;
+}
+.background{
+    border:0px solid #FFF0E8;
+    background-repeat: no-repeat;
+    width: 95%;
+    margin: 0% auto;
+    background: linear-gradient(0deg, #FF8139, #FF8139), #FF8139;
+    border-radius: 16px;
+
+}
+.release {
+    width: 19%;
+    padding: 9% 0% 0% 6%;
+    color: rgb(17, 17, 17);
+  }
+.standman{
+    max-width: 100%;
+    padding-left: 21.8%;
+}
+
+.release h2{
+    width: 455px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 501;
+    font-size: 40px;
+    color: rgb(17, 17, 17);
+}
+.opensea{
+    width: 455px;
+    font-weight: 502;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Inter;
+    font-style: normal;
+
+}
+.opensea span{
+    text-decoration: underline;
+}
+.opensea .edition{
+    padding: 4% 0% 3% 0%;
+
+}
+.opensea .missout{
+    padding: 3% 0%;
+
+}
+.opensea .edition{
+    padding: 4% 0%;
+
+}
+.checkbtn button {
+    background-color:#d2691e00;
+    border: none;
+    font-size: 20px;
+    font-weight: 501;
+
+
+  }
+.checkout {
+    padding: 11% 2% 0% 0%;
+}
+.arrow img{
+padding-left:83%;
+}
+
+/* section5 */
+.initial2{
+    padding: 6% 0% 6% 0%;
+}
+
+.background1{
+    background-color:#39FFA0 ;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,255,160,1) 9%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%); */
+    /* background-image: linear-gradient(to right top, #39ffa0, #ff9759, #ffac79, #ffc199, #ffd5bb, #ffdeca, #ffe7d9, #fff0e8, #fff0e8, #fff0e8, #fff0e8, #fff0e8); */
+    border:0px solid #FFF0E8;
+    background-repeat: no-repeat;
+    width: 95%;
+    margin: 0% auto;
+    border-radius: 16px;
+}
+.cardimage{
+    width: 20%;
+    padding: 8% 0% 8% 10%;
+}
+.release1{
+    width: 19%;
+    padding: 6% 0% 0% 26%;
+    color: rgb(17, 17, 17);
+
+}
+.release1 h2{
+    width: 455px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 501;
+    font-size: 40px;
+    color: rgb(17, 17, 17);
+}
+
+/* section 6 */
+.box1{
+    width: 547px;
+    background: rgb(85, 85, 85);
+    border-radius: 16px;
+    padding: 5% 3% 3% 3%;
+}
+.box1 img{
+    max-width: 38px;
+    padding: 3% 5%;
+}
+.box1 h4{
+    width: 460px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 5%;
+}
+
+.box1 p{
+    width: 460px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #CCCCCC;
+    padding: 5%;
+}
+.nftlike {
+    padding-bottom: 6%;
+  }
+
+
+  /* new section start */
+
+  .update{
+    border:1px solid #555555;
+      width:95%;
+      border-left: none;
+      border-right: none;
+      margin : 0% auto;
+  }
+.recieve{
+    padding: 7% 0%;
+}
+
+.other p.launchingg{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 5%;
+
+    /* Pink */
+    color: rgb(255, 57, 152);
+}
+.j-contant-w {
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.other{
+    padding: 8% 0%;
+}
+.other h1{
+    font-family: 'Inter';
+    font-style: normal;
+    width: 620px;
+    font-weight: 900;
+    font-size: 56px;
+    padding-top: 2%;
+
+    /* Light 1 */
+    color: rgb(255, 255, 255);
+}
+.miss-out{
+    width: 537px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 5%;
+
+    /* or 30px */
+
+    /* Light 3 */
+    color: rgb(204, 204, 204);
+}
+.miss-out span{
+    display: block;
+}
+.signupp button{
+    border: 1px solid hsl(22, 100%, 61%);
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 0.6% 1.5%;
+    margin-top:5%;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    }
+    .women{
+        max-width: 100%;
+    }
+
+    /* footer section */
+
+    .footer{
+        padding-top: 6%;
+        width: 95%;
+        margin: 0% auto;
+        }
+.flogo h2{
+padding-left: 0.8%;
+color: rgb(255, 255, 255);
+font-family: Varela Round;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+}
+.exclusive{
+    padding:12% 0%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+}
+.s-icons .t{
+    margin-left:5%;
+}
+.s-icons .i{
+    margin-left:5%;
+}
+.s-icons .tt{
+    margin-left:5%;
+}
+
+/* css for lists */
+
+.a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Light 3 */
+    color: rgb(204, 204, 204);
+}
+
+    .lists{
+        padding:2% 3% 0% 0%;
+    }
+    .aboutl p{
+        margin: 15px;
+        color: rgb(204, 204, 204);
+        font-family: Inter;
+       
+    }
+    .copy{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: rgb(119, 119, 119);
+        padding: 7% 2%;
+    }
+    @media only screen and (max-width: 600px) {
+        body {
+           background: pink;
+        }
+        .d-flex {
+            display: flex;
+            flex-direction: column;
+          }
+      }
+
+
+
+
+
+
+
+
+
+
